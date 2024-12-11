@@ -40,7 +40,7 @@ This repository contains the program and output files for the **LexMed** project
 
 ## Project Structure
 
-- `extract_text.py`: The main program that scans the PDFs and extracts text.
+- `main.py`: The main program that scans the PDFs and extracts text.
 - `output/`: A directory where the resulting text files are stored.
 - `README.md`: This file.
 
