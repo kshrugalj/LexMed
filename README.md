@@ -33,7 +33,7 @@ This repository contains the program and output files for the **LexMed** project
 1. Place your PDF files (without machine-readable text) in the project folder or specify the path to the files.
 2. Run the Python script to process the PDFs and extract the text:
    ```bash
-   python extract_text.py
+   python main.py
    ```
 
 3. The output will be saved in text files within the project folder.
