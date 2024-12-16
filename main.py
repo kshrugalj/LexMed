@@ -46,7 +46,7 @@ def process_multiple_pdfs(pdf_folder, output_folder, tesseract_cmd=None):
             txt_output_path = os.path.join(output_folder, f"{os.path.splitext(filename)[0]}.txt")
             print(f"Processing {filename}...")
             extract_text_with_ocr(pdf_path, txt_output_path, tesseract_cmd)
-
+#These variables should be the file names and name of the file path for tesseract
 pdf_folder = 'test'  
 output_folder = 'output_folder'  
 tesseract_cmd = '/opt/homebrew/bin/tesseract'
